@@ -31,5 +31,10 @@ namespace Part_One
         {
 
         }
+
+        private void Claim_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

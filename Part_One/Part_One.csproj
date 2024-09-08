@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Approve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Approve.Designer.cs">
+      <DependentUpon>Approve.cs</DependentUpon>
+    </Compile>
     <Compile Include="Claim.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +64,25 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Homescreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homescreen.Designer.cs">
+      <DependentUpon>Homescreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Approve.resx">
+      <DependentUpon>Approve.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Claim.resx">
       <DependentUpon>Claim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homescreen.resx">
+      <DependentUpon>Homescreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
