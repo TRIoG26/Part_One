@@ -21,5 +21,12 @@ namespace Part_One
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Homescreen homescreen = new Homescreen();
+            homescreen.Show();
+            this.Close();
+        }
     }
 }

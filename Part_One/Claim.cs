@@ -19,7 +19,9 @@ namespace Part_One
 
         private void Request_btn_Click(object sender, EventArgs e)
         {
-
+            Homescreen homescreen = new Homescreen();
+            homescreen.Show();
+            this.Close();
         }
 
         private void label5_Click(object sender, EventArgs e)

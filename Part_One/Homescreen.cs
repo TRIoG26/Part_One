@@ -21,5 +21,19 @@ namespace Part_One
         {
            Application.Exit();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Approve approve = new Approve();
+            approve.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Claim claim = new Claim();
+            claim.Show();
+            this.Hide();
+        }
     }
 }
